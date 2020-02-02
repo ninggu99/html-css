@@ -16,10 +16,10 @@
 }
 
 #header-search > h1{
-    width: 280px;
-    height: 48px;
+    width: 200px;
+    height: 60px;
     display: inline-block;
-    background-image: url(../ch3/sp_nav_v200110.png);
+    background-image: url(https://s.pstatic.net/static/www/img/uit/2019/sp_search.svg);
 }
 
 #header-search h2{

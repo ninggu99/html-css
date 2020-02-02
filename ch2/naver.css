@@ -18,6 +18,7 @@
 #header-search > h1{
     width: 280px;
     display: inline-block;
+    background-image: url(https://s.pstatic.net/static/www/img/uit/2019/sp_search.svg);
 }
 
 #header-search h2{
