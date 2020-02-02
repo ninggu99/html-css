@@ -3,6 +3,21 @@
 * {
     box-sizing: border-box;
 }
+html, body {
+    margin: 0;
+    padding: 0;
+}
+#fixed{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
 .blind{
     position: absolute;
     overflow: hidden;
@@ -12,7 +27,7 @@
     height: 1px;
 }
 
-#header-center{
+.center-align{
     margin: 0 auto;
     width: 1080px;
 }
@@ -86,4 +101,59 @@
     height: 21px;
     display: inline-block;
     margin: 14px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li span:first-child{
+    height: 16px;
+    display: inline-block;
+    background-image: url(https://s.pstatic.net/static/www/img/uit/2020/sp_nav_v200110.png);
+    background-repeat: no-repeat;
+    margin-left: 14px;
+}
+
+nav li:first-child span:first-child{
+    width: 25px;
+    background-position: -294px -156px;
+    margin-left: 0;
+}
+
+nav li:nth-child(2) span:first-child{
+    width: 27px;
+    background-position: -234px -234px;
+}
+
+nav li:nth-child(3) span:first-child{
+    width: 40px;
+    background-position: -50px -182px;
+}
+
+nav li:nth-child(4) span:first-child{
+    width: 40px;
+    background-position: -128px -130px;
+}
+
+nav li:nth-child(5) span:first-child{
+    width: 26px;
+    background-position: -111px -260px;
+}
+
+nav li:nth-child(6) span:first-child{
+    width: 25px;
+    background-position: -294px -208px;
+}
+
+nav li:last-child span:first-child{
+    margin-top: -1px;
+    width: 32px;
+    background-position: -200px -182px;
 }
